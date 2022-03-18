@@ -16,10 +16,10 @@
       content="Aplikacja do liczenia wypitych szklanek np. wody"
     />
     <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta
+    <!-- <meta
       property="og:url"
       content="https://github.com/rflazarek/glassapp.git"
-    />
+    /> -->
     <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
     <meta
       property="og:image"
@@ -27,7 +27,7 @@
     />
 
     <!-- uncomment the line below to enable PWA  -->
-    <!-- <link rel="manifest" href="manifest.json" /> -->
+    <link rel="manifest" href="manifest.json" />
 
     <link
       rel="apple-touch-icon"
@@ -157,10 +157,10 @@
     <main class="app">
       <h1 class="app__header">glassapp</h1>
       <div class="glass">
-        <span class="glass__counter">0</span>
+        <span class="glass__counter glass__counter--js">0</span>
       </div>
-      <button class="button-add">dodaj szklankę</button>
-      <button class="button-remove">usuń szklankę</button>
+      <button class="button-add button-add--js">dodaj szklankę</button>
+      <button class="button-remove button-remove--js">usuń szklankę</button>
     </main>
   </body>
 </html>
