@@ -1,0 +1,36 @@
+{
+  "name": "GlassApp",
+  "short_name": "Aplikacja do liczenia wypitych szklanek np. wody",
+  "theme_color": "#3767AD",
+  "background_color": "#3767AD",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/glassapp/",
+  "start_url": "/glasapp/",
+  "icons": [
+    {
+      "src": "pwa/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "pwa/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
