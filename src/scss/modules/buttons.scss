@@ -1,0 +1,31 @@
+.button-add {
+  display: block;
+  width: 216px;
+  margin: 0 auto 16px;
+  box-sizing: border-box;
+  padding: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+}
+
+.button-remove {
+  background: none;
+  border: none;
+  display: block;
+  width: 216px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #f5e5e7;
+}
