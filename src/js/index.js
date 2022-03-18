@@ -2,8 +2,8 @@ import "../scss/main.scss";
 
 
 // uncomment the lines below to enable PWA
-// import {registerSW} from './pwa.js';
-// registerSW();
+ import {registerSW} from './pwa.js';
+ registerSW();
 
 const glassCounter = document.querySelector(".glass__counter--js");
 const buttonAdd = document.querySelector(".button-add--js");
