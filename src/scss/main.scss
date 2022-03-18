@@ -1,12 +1,13 @@
 @import "~normalize.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: #3767AD;
+  color: #E5E5E5;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
